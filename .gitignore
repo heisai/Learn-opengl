@@ -2,4 +2,4 @@
 *.vcxproj.filters
 x64
 Debug
-/.vs/
+**/.vs/
