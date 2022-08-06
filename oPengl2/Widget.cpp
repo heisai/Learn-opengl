@@ -88,7 +88,8 @@ void Widget::DrawArrary()
 	{
 		glUseProgram(m_Shader->GetPromger());
 		glBindVertexArray(m_Buffer->GetVAO()); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
-		glDrawArrays(GL_TRIANGLES, 0, 3);
+		glDrawElements(GL_TRIANGLES, 9, GL_UNSIGNED_INT, 0);
+		//glDrawArrays(GL_TRIANGLES, 0, 6);
 	}
 	
 }
