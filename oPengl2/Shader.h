@@ -70,12 +70,11 @@ public:
 
 
 		//设置顶点属性指针
-		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
-		glEnableVertexAttribArray(0);
+		glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+		glEnableVertexAttribArray(1);
 		//绑定缓冲对象
-		glBindBuffer(GL_ARRAY_BUFFER, 0);
-
-		glBindVertexArray(0);
+		//glBindBuffer(GL_ARRAY_BUFFER, 1);
+		//glBindVertexArray(1);
 	}
 	unsigned int  GetVAO()
 	{

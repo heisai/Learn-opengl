@@ -55,6 +55,11 @@ void Widget::SetWindowTitle(const std::string& title)
 	title_text = title;
 }
 
+void Widget::SetPolygonMode(int Model)
+{
+	glPolygonMode(GL_FRONT_AND_BACK, Model);
+}
+
 void Widget::InitWidget()
 {
 		glfwInit();

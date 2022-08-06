@@ -16,6 +16,7 @@ public:
 	void SetColor();
 	void Show();
 	void SetWindowTitle(const std::string& title);
+	void SetPolygonMode(int);
 private:
 	void InitWidget();
 	int  ManagePoint();
