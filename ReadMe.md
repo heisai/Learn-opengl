@@ -3,6 +3,8 @@
 - 编译环境
             
          Windiws  Vs2019
+         
+         release x64
 
 - 依赖环境目录：
 
