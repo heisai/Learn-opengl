@@ -9,7 +9,7 @@ int main()
 		"../resource/456.txt");
 	std::shared_ptr<BufferData>buffer = std::make_shared<BufferData>();
 	Widget w(shader, buffer);
-	w.SetWindowTitle("OPengl");
+	w.SetWindowTitle("Opengl");
 	w.CreateWidget(800, 600);
 	w.Show();
 }

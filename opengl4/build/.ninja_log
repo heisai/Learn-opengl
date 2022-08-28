@@ -1,0 +1,8 @@
+# ninja log v5
+9	300	6828595622142513	CMakeFiles/GLAD.dir/src/glad.c.obj	e657187488eeaa8b
+301	338	6828595622511282	GLAD.lib	6fc5ab3e3c31daaa
+7	371	6828595622850146	CMakeFiles/opengl4.dir/src/Shader.cpp.obj	d22c8c7123d646d
+0	426	6828600378647208	CMakeFiles/opengl4.dir/main.cpp.obj	dffc1f645a98dad0
+0	596	6828595625099937	CMakeFiles/opengl4.dir/src/BufferData.cpp.obj	f3e47d8b1d3452e1
+4	555	6828595624690508	CMakeFiles/opengl4.dir/src/Widget.cpp.obj	ed25a432971681ef
+427	543	6828600379551437	opengl4.exe	1aa4d4365974089b

@@ -81,6 +81,7 @@ int Widget::ManagePoint()
 		std::cout << "Failed to initialize GLAD" << std::endl;
 		return -1;
 	}
+    return 1;
 }
 
 void Widget::processInput()

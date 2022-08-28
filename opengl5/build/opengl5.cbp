@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="opengl5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/GLTest/Learn-opengl/opengl5/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v all"/>
+					<CompileFile command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opengl5">
+				<Option output="E:/GLTest/Learn-opengl/opengl5/build/opengl5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GLTest/Learn-opengl/opengl5/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glad/include"/>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glfw/include"/>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glm"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v opengl5"/>
+					<CompileFile command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opengl5/fast">
+				<Option output="E:/GLTest/Learn-opengl/opengl5/build/opengl5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GLTest/Learn-opengl/opengl5/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glad/include"/>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glfw/include"/>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glm"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v opengl5/fast"/>
+					<CompileFile command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD">
+				<Option output="E:/GLTest/Learn-opengl/opengl5/build/GLAD.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GLTest/Learn-opengl/opengl5/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glad/include"/>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glfw/include"/>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glm"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v GLAD"/>
+					<CompileFile command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD/fast">
+				<Option output="E:/GLTest/Learn-opengl/opengl5/build/GLAD.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GLTest/Learn-opengl/opengl5/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glad/include"/>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glfw/include"/>
+					<Add directory="E:/GLTest/Learn-opengl/opengl5/./OpenGl/glm"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v GLAD/fast"/>
+					<CompileFile command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/GLTest/Learn-opengl/opengl5/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/GLTest/Learn-opengl/opengl5/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/GLTest/Learn-opengl/opengl5/main.cpp">
+			<Option target="opengl5"/>
+		</Unit>
+		<Unit filename="E:/GLTest/Learn-opengl/opengl5/src/BufferData.cpp">
+			<Option target="opengl5"/>
+		</Unit>
+		<Unit filename="E:/GLTest/Learn-opengl/opengl5/src/BufferData.h">
+			<Option target="opengl5"/>
+		</Unit>
+		<Unit filename="E:/GLTest/Learn-opengl/opengl5/src/Shader.cpp">
+			<Option target="opengl5"/>
+		</Unit>
+		<Unit filename="E:/GLTest/Learn-opengl/opengl5/src/Shader.h">
+			<Option target="opengl5"/>
+		</Unit>
+		<Unit filename="E:/GLTest/Learn-opengl/opengl5/src/Widget.cpp">
+			<Option target="opengl5"/>
+		</Unit>
+		<Unit filename="E:/GLTest/Learn-opengl/opengl5/src/Widget.h">
+			<Option target="opengl5"/>
+		</Unit>
+		<Unit filename="E:/GLTest/Learn-opengl/opengl5/src/glad.c">
+			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="E:/GLTest/Learn-opengl/opengl5/src/stb_image.h">
+			<Option target="opengl5"/>
+		</Unit>
+		<Unit filename="E:/GLTest/Learn-opengl/opengl5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

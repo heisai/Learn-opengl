@@ -1,0 +1,4 @@
+E:/GLTest/Learn-opengl/opengl4/build/CMakeFiles/opengl4.dir
+E:/GLTest/Learn-opengl/opengl4/build/CMakeFiles/GLAD.dir
+E:/GLTest/Learn-opengl/opengl4/build/CMakeFiles/edit_cache.dir
+E:/GLTest/Learn-opengl/opengl4/build/CMakeFiles/rebuild_cache.dir
